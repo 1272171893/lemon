@@ -1,21 +1,22 @@
 {
-    "name": "lemon",
-    "version": "0.0.0",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "serve": "vite preview",
-        "docs:dev": "vuepress dev docs",
-        "docs:build": "vuepress build docs"
-    },
-    "dependencies": {
-        "element-plus": "^1.0.2-beta.32",
-        "vue": "^3.0.5",
-        "vuepress": "^1.8.2"
-    },
-    "devDependencies": {
-        "@vitejs/plugin-vue": "^1.1.4",
-        "@vue/compiler-sfc": "^3.0.5",
-        "vite": "^2.0.1"
-    }
+  "name": "lemon",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "element-plus": "^1.0.2-beta.32",
+    "koa": "^2.13.1",
+    "vue": "^3.0.5",
+    "vuepress": "^1.8.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.0.1"
+  }
 }
