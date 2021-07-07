@@ -37,7 +37,7 @@
 </template>
 <script lang="ts" setup="props, { emit }">
 import { VueDraggableNext } from "vue-draggable-next";
-import data from "@/json/list.ts";
+import data from "../json/list";
 const change = (e: { draggedContext: { element: { id: any } } }): void => {
   const draggedContext = e.draggedContext.element.id;
   console.log(1111222, draggedContext);

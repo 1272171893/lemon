@@ -20,7 +20,7 @@
 <script lang="ts" setup>
 import { VueDraggableNext } from "vue-draggable-next";
 import { reactive } from "vue";
-import factor from "@/library/index.ts";
+import factor from "../library";
 const drawingList = reactive([]);
 const add = (e: CustomEvent) => {
   console.log(111, e, drawingList);
